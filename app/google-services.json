@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "994117101835",
+    "firebase_url": "https://challengeapp-209508.firebaseio.com",
+    "project_id": "challengeapp-209508",
+    "storage_bucket": "challengeapp-209508.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994117101835:android:22fa0aec564c97cb",
+        "android_client_info": {
+          "package_name": "com.example.kaila.challenge30days"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994117101835-o5f91t4j5pb6bja5atdqbn25vfnci1be.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kaila.challenge30days",
+            "certificate_hash": "8921727d919378cfb152ffa72b996026d182d99b"
+          }
+        },
+        {
+          "client_id": "994117101835-ldmrph3svp1u4vmgcnt1buoc6pu2omr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYGvrSrbu2IgH7DrJh17jq5wfVyYQfoPI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994117101835-ldmrph3svp1u4vmgcnt1buoc6pu2omr9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
