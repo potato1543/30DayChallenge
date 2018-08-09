@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity implements MyAdapter.ItemCli
 
     MyAdapter adapter;
 
-    // call network to control calendar layout/login [save] (networkutils & asyncloader )
-    // or see if firebase is easier add [add activity & button to switch to map view]
+    // call network to control calendar layout/login [save] (networkutils & asyncloader ) ? have firebase connected
+    // how to keep checkboxes checked once completed a day all how to clear cache
     // store tasks in database "plank 20 seconds"
-    // add a done with challenge button[maybe create login to save data to add a friends list later]
+    // add a done with challenge button
     // notification when complete 5 days, 10, 15, 20, 25, 30
 
     @Override
@@ -33,36 +33,36 @@ public class MainActivity extends AppCompatActivity implements MyAdapter.ItemCli
 
         // data to populate the RecyclerView with
         ArrayList<String> ChallengeTimes = new ArrayList<>();
-        ChallengeTimes.add("Day 1: Plank 20 seconds");
-        ChallengeTimes.add("Day 2: Plank 20 seconds");
-        ChallengeTimes.add("Day 3: Plank 30 seconds");
-        ChallengeTimes.add("Day 4: Plank 30 seconds");
-        ChallengeTimes.add("Day 5: Plank 40 seconds");
-        ChallengeTimes.add("Day 6: Rest Day");
-        ChallengeTimes.add("Day 7: Plank 45 seconds");
-        ChallengeTimes.add("Day 8: Plank 45 seconds");
-        ChallengeTimes.add("Day 9: Plank 60 seconds");
-        ChallengeTimes.add("Day 10: Plank 60 seconds");
-        ChallengeTimes.add("Day 11: Plank 60 seconds");
-        ChallengeTimes.add("Day 12: Plank 90 seconds");
-        ChallengeTimes.add("Day 13: Rest Day");
-        ChallengeTimes.add("Day 14: Plank 90 seconds");
-        ChallengeTimes.add("Day 15: Plank 90 seconds");
-        ChallengeTimes.add("Day 16: Plank 120 seconds");
-        ChallengeTimes.add("Day 17: Plank 120 seconds");
-        ChallengeTimes.add("Day 18: Plank 150 seconds");
-        ChallengeTimes.add("Day 19: Rest Day");
-        ChallengeTimes.add("Day 20: Plank 150 seconds");
-        ChallengeTimes.add("Day 21: Plank 150 seconds");
-        ChallengeTimes.add("Day 22: Plank 180 seconds");
-        ChallengeTimes.add("Day 23: Plank 180 seconds");
-        ChallengeTimes.add("Day 24: Plank 210 seconds");
-        ChallengeTimes.add("Day 25: Plank 210 seconds");
-        ChallengeTimes.add("Day 26: Rest Day");
-        ChallengeTimes.add("Day 27: Plank 240 seconds");
-        ChallengeTimes.add("Day 28: Plank 240 seconds");
-        ChallengeTimes.add("Day 29: Plank 270 seconds");
-        ChallengeTimes.add("Day 30: Plank 300 seconds");
+        ChallengeTimes.add("Day 1: ");
+        ChallengeTimes.add("Day 2: ");
+        ChallengeTimes.add("Day 3: ");
+        ChallengeTimes.add("Day 4: ");
+        ChallengeTimes.add("Day 5: ");
+        ChallengeTimes.add("Day 6: ");
+        ChallengeTimes.add("Day 7: ");
+        ChallengeTimes.add("Day 8: ");
+        ChallengeTimes.add("Day 9: ");
+        ChallengeTimes.add("Day 10: ");
+        ChallengeTimes.add("Day 11: ");
+        ChallengeTimes.add("Day 12: ");
+        ChallengeTimes.add("Day 13: ");
+        ChallengeTimes.add("Day 14: ");
+        ChallengeTimes.add("Day 15: ");
+        ChallengeTimes.add("Day 16: ");
+        ChallengeTimes.add("Day 17: ");
+        ChallengeTimes.add("Day 18: ");
+        ChallengeTimes.add("Day 19: ");
+        ChallengeTimes.add("Day 20: ");
+        ChallengeTimes.add("Day 21: ");
+        ChallengeTimes.add("Day 22: ");
+        ChallengeTimes.add("Day 23: ");
+        ChallengeTimes.add("Day 24: ");
+        ChallengeTimes.add("Day 25: ");
+        ChallengeTimes.add("Day 26: ");
+        ChallengeTimes.add("Day 27: ");
+        ChallengeTimes.add("Day 28: ");
+        ChallengeTimes.add("Day 29: ");
+        ChallengeTimes.add("Day 30: ");
 
 
         // set up the RecyclerView
